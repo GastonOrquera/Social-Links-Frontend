@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    background-color: #141414;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .conteinerContent {
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .9rem;
+    border-radius: 12px;
+    padding: 1rem 1.6rem;
+}
+
+.conteiner .conteinerContent .img {
+    height: 6rem;
+    width: 6rem;
+    background-image: url(assets/images/avatar-jessica.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.conteiner .conteinerContent h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #B4B4B4;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: .9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conteiner .conteinerContent p:first-of-type {
+    color: #a0bd4b;
+    font-weight: 800;
+}
+
+.conteiner .conteinerContent p:last-of-type {
+    color: #B4B4B4;
+}
+
+.conteiner .conteinerContent .flex-reds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+
+.conteiner .conteinerContent .flex-reds a {
+    background-color: #333333;
+    padding: .8rem 1rem;
+    width: 100%;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #B4B4B4;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.conteiner .conteinerContent .flex-reds a:hover {
+    background-color: #B4B4B4;
+    color: #1F1F1F;
+}
